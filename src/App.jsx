@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Services from './components/Services'
-import Benefits from './components/Benefits'
+//import Benefits from './components/Benefits'
 //import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -16,8 +16,8 @@ function App() {
       <Hero />
       <Services />
       <About />      
-      <Benefits />
-      {/*<Testimonials />*/}
+      {/*<Benefits />
+      <Testimonials />*/}
       <Contact />
       <Footer />
       <WhatsAppButton />

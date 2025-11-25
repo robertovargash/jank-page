@@ -30,7 +30,6 @@ const Navbar = () => {
           <li><a href="#inicio" className="nav-link" onClick={(e) => { e.preventDefault(); scrollToSection('inicio') }}>Inicio</a></li>
           <li><a href="#servicios" className="nav-link" onClick={(e) => { e.preventDefault(); scrollToSection('servicios') }}>Servicios</a></li>
           <li><a href="#nosotros" className="nav-link" onClick={(e) => { e.preventDefault(); scrollToSection('nosotros') }}>Nosotros</a></li>
-          <li><a href="#beneficios" className="nav-link" onClick={(e) => { e.preventDefault(); scrollToSection('beneficios') }}>Beneficios</a></li>
           <li><a href="#contacto" className="nav-link" onClick={(e) => { e.preventDefault(); scrollToSection('contacto') }}>Contacto</a></li>
         </ul>
         <div className={`nav-toggle ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>

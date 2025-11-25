@@ -13,8 +13,8 @@ export const footerData = {
     { text: 'Inicio', url: '#inicio' },
     { text: 'Nosotros', url: '#nosotros' },
     { text: 'Servicios', url: '#servicios' },
-    { text: 'Beneficios', url: '#beneficios' },
-    { text: 'Testimonios', url: '#testimonios' },
+    /*{ text: 'Beneficios', url: '#beneficios' },
+    { text: 'Testimonios', url: '#testimonios' },*/
     { text: 'Contacto', url: '#contacto' }
   ],
   services: [
