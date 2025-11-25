@@ -1,8 +1,8 @@
 {
-  "name": "asesoria-plus-react",
+  "name": "agencia-janka",
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://vargasdev.github.io/asesoria-plus-react",
+  "homepage": "https://vargasdev.github.io/agencia-janka",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
