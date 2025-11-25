@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import logoImage from '/images/Logo Agencia JanK2.png'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -23,7 +24,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <div className="nav-logo">
-          <img src="/images/Logo Agencia JanK2.png" alt="Logo Agencia JanKa" />
+          <img src={logoImage} alt="Logo Agencia JanKa" />
           <span>Agencia JanKa</span>
         </div>
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
