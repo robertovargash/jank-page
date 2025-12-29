@@ -16,6 +16,8 @@ function App() {
       <Hero />
       <Services />
       <About />      
+      {/*<Benefits />
+      <Testimonials />*/}
       <Contact />
       <Footer />
       <WhatsAppButton />
