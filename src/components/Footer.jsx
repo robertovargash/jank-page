@@ -8,14 +8,7 @@ const Footer = () => {
         <div className="footer-container">
           <div className="footer-col">
             <h3>{footerData.company.name}</h3>
-            <p>{footerData.company.description}</p>
-            <div className="social-links">
-              {footerData.socialLinks.map((link, index) => (
-                <a key={index} href={link.url} target="_blank" rel="noopener noreferrer">
-                  <i className={link.icon}></i>
-                </a>
-              ))}
-            </div>
+            <p>{footerData.company.description}</p>            
           </div>
           <div className="footer-col">
             <h3>Enlaces Rápidos</h3>

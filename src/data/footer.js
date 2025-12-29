@@ -16,15 +16,15 @@ export const footerData = {
     { text: 'Contacto', url: '#contacto' }
   ],
   services: [
-    { name: 'Consultoría Empresarial', url: '#' },
-    { name: 'Análisis Financiero', url: '#' },
-    { name: 'Estrategias Personalizadas', url: '#' }
+    { name: 'Obtención de certificados registrales', url: '#' },
+    { name: 'Subsanación de errores', url: '#' },
+    { name: 'Legalización de documentos', url: '#' },
+    { name: 'Obtención y legalización de antecedentes penales', url: '#' }
   ],
   contact: [
     { icon: 'fas fa-map-marker-alt', text: 'Av. Principal 123, Ciudad' },
-    { icon: 'fas fa-phone', text: '+1 234 567 890' },
+    { icon: 'fas fa-phone', text: '+34 623 37 97 78' },
     { icon: 'fas fa-envelope', text: 'agenciajanka@gmail.com' },
-    { icon: 'fas fa-clock', text: 'Lun - Vie: 9:00 - 18:00' }
   ],
   get copyright() {
     return `© ${new Date().getFullYear()} Agencia JanKa. Todos los derechos reservados.`

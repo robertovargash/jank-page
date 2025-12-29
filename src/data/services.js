@@ -1,20 +1,26 @@
 export const servicesData = [
   {
     id: 1,
-    icon: 'fas fa-chart-line',
+    icon: 'fas fa-file-alt',
     title: 'Obtención de certificados registrales.',
-    description: 'Análisis integral de tu empresa para identificar áreas de mejora y desarrollar estrategias de crecimiento.'
+    description: 'Certificaciones de nacimiento, defunción, matrimonio, soltería, ciudadanía.'
   },
   {
     id: 2,
-    icon: 'fas fa-file-invoice-dollar',
+    icon: 'fas fa-thumbs-up',
     title: 'Subsanación de errores',
-    description: 'Evaluación detallada de tu situación financiera para optimizar recursos y maximizar rentabilidad.'
+    description: 'Subsanación de errores de certificaciones registrales (nacimiento, defunción, matrimonio).'
   },
   {
     id: 3,
-    icon: 'fas fa-lightbulb',
+    icon: 'fas fa-graduation-cap',
     title: 'Legalización de documentos',
-    description: 'Desarrollo de planes a medida adaptados a las necesidades específicas de tu negocio.'
+    description: 'Títulos de bachiller y universitarios, certificaciones de notas, planes temáticos, planes de estudio.'
+  },
+  {
+    id: 4,
+    icon: 'fas fa-gavel',
+    title: 'Obtención y legalización de antecedentes penales',
+    description: 'Documento oficial (legalmente válido) para certificar si una persona tiene o no antecedentes penales.'
   }
 ]
