@@ -1,7 +1,7 @@
 export const footerData = {
   company: {
     name: 'Agencia JanKa',
-    description: 'Tu socio estratégico para el crecimiento empresarial. Más de 15 años ayudando a empresas a alcanzar su máximo potencial.'
+    description: 'Tu agencia de confianza para la realización de trámites personales lejos de casa.',
   },
   socialLinks: [
     { icon: 'fab fa-facebook-f', url: '#' },
@@ -13,8 +13,6 @@ export const footerData = {
     { text: 'Inicio', url: '#inicio' },
     { text: 'Nosotros', url: '#nosotros' },
     { text: 'Servicios', url: '#servicios' },
-    /*{ text: 'Beneficios', url: '#beneficios' },
-    { text: 'Testimonios', url: '#testimonios' },*/
     { text: 'Contacto', url: '#contacto' }
   ],
   services: [
@@ -28,5 +26,7 @@ export const footerData = {
     { icon: 'fas fa-envelope', text: 'agenciajanka@gmail.com' },
     { icon: 'fas fa-clock', text: 'Lun - Vie: 9:00 - 18:00' }
   ],
-  copyright: '© 2025 Agencia JanKa. Todos los derechos reservados.'
+  get copyright() {
+    return `© ${new Date().getFullYear()} Agencia JanKa. Todos los derechos reservados.`
+  }
 }

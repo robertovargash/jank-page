@@ -15,24 +15,23 @@ const Hero = () => {
     <section id="inicio" className="hero-section">
       <div className="hero-container">
         <div className="hero-content">
-          <h1>Impulsa tu Negocio con Asesoría Profesional</h1>
+          <h1>Consultoría de Gestión de documentos</h1>
           <p>
-            Ayudamos a emprendedores y empresas a tomar decisiones estratégicas,
-            optimizar procesos y mejorar sus resultados con planes claros y efectivos.
+            Tu agencia de confianza para la realización de trámites personales lejos de casa.
           </p>
 
           <div className="features">
             <div className="feature">
               <i className="fas fa-chart-line"></i>
-              <span>Consultoría Empresarial</span>
+              <span>Obtención de certificaciones registrales</span>
             </div>
             <div className="feature">
               <i className="fas fa-file-invoice-dollar"></i>
-              <span>Análisis Financiero</span>
+              <span>Subsanación de errores</span>
             </div>
             <div className="feature">
               <i className="fas fa-lightbulb"></i>
-              <span>Estrategias Personalizadas</span>
+              <span>Legalización de documentos</span>
             </div>
           </div>
 

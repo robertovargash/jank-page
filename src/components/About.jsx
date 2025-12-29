@@ -12,26 +12,30 @@ const About = () => {
           </div>
           <div className="about-content">
             <p>
-              En Agencia JanKa contamos con más de 15 años de experiencia en consultoría empresarial. 
-              Nuestro equipo de profesionales altamente capacitados está comprometido con el éxito de nuestros clientes.
+              En Agencia JanKa nos enfocamos en alcanzar la total satisfacción de nuestros clientes mediante la gestión eficaz de cada trámite.              
             </p>
             <p>
-              Creemos que cada empresa es única, por lo que desarrollamos estrategias personalizadas que se adaptan 
-              a las necesidades específicas de cada negocio, garantizando resultados tangibles y sostenibles.
+              Realizamos una valoración específica de cada caso sugiriendo el mejor camino para el exitoso resultado del trámite deseado.
             </p>
-            
+            <p>
+              Con nosotros puede:
+            </p>            
             <div className="about-features">
               <div className="about-feature">
                 <i className="fas fa-check-circle"></i>
-                <span>Experiencia comprobada en múltiples industrias</span>
+                <span>Obtener certificaciones del registro del estado civil (nacimiento, defunción, matrimonio, soltería, ciudadanía)</span>
               </div>
               <div className="about-feature">
                 <i className="fas fa-check-circle"></i>
-                <span>Enfoque personalizado para cada cliente</span>
+                <span>Legalizar documentos registrales y académicos (títulos de bachiller y universitarios, certificaciones de notas, planes temáticos, planes de estudio)</span>
               </div>
               <div className="about-feature">
                 <i className="fas fa-check-circle"></i>
-                <span>Resultados medibles y garantizados</span>
+                <span>Subsanar errores de certificaciones registrales (nacimiento, defunción, matrimonio, soltería, ciudadanía)</span>
+              </div>
+              <div className="about-feature">
+                <i className="fas fa-check-circle"></i>
+                <span>Obtener y legalizar antecedentes penales</span>
               </div>
             </div>
           </div>
