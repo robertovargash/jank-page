@@ -2,7 +2,7 @@ export const servicesData = [
   {
     id: 1,
     icon: 'fas fa-file-alt',
-    title: 'Obtención de certificados registrales.',
+    title: 'Obtención de certificaciones registrales.',
     description: 'Certificaciones de nacimiento, defunción, matrimonio, soltería, ciudadanía.'
   },
   {

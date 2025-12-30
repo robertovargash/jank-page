@@ -16,7 +16,7 @@ export const footerData = {
     { text: 'Contacto', url: '#contacto' }
   ],
   services: [
-    { name: 'Obtención de certificados registrales', url: '#' },
+    { name: 'Obtención de certificaciones registrales', url: '#' },
     { name: 'Subsanación de errores', url: '#' },
     { name: 'Legalización de documentos', url: '#' },
     { name: 'Obtención y legalización de antecedentes penales', url: '#' }

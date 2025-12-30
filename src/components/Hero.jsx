@@ -22,15 +22,15 @@ const Hero = () => {
 
           <div className="features">
             <div className="feature">
-              <i className="fas fa-chart-line"></i>
+              <i className="fas fa-file-alt"></i>
               <span>Obtención de certificaciones registrales</span>
             </div>
             <div className="feature">
-              <i className="fas fa-file-invoice-dollar"></i>
+              <i className="fas fa-thumbs-up"></i>
               <span>Subsanación de errores</span>
             </div>
             <div className="feature">
-              <i className="fas fa-lightbulb"></i>
+              <i className="fas fa-graduation-cap"></i>
               <span>Legalización de documentos</span>
             </div>
           </div>
